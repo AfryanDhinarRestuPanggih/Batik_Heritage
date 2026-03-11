@@ -1,4 +1,5 @@
 import React from 'react';
+import heroImg from '../assets/images/hero.png';
 
 const Hero = () => {
   return (
@@ -7,7 +8,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-batik-dark/90 to-batik-brown/70 mix-blend-multiply z-10" />
         <img 
-          src="/src/assets/images/hero.png" 
+          src={heroImg} 
           alt="Traditional Batik Fabric Making" 
           className="w-full h-full object-cover grayscale opacity-90"
         />

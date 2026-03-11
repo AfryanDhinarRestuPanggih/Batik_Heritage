@@ -1,4 +1,8 @@
 import React from 'react';
+import productImg1 from '../assets/images/product-1.png';
+import productImg2 from '../assets/images/product-2.png';
+import productImg3 from '../assets/images/product-3.png';
+import productImg4 from '../assets/images/product-4.png';
 
 const ProductGrid = () => {
   const products = [
@@ -6,28 +10,28 @@ const ProductGrid = () => {
       id: 1,
       name: "Kawung Scarf",
       price: "$45",
-      image: "/src/assets/images/product-1.png",
+      image: productImg1,
       description: "Classic kawung pattern on fine cotton."
     },
     {
       id: 2,
       name: "Truntum Hand-drawn Fabric",
       price: "$120",
-      image: "/src/assets/images/product-2.png",
+      image: productImg2,
       description: "Symbolizing love that grows, perfect for wedding ceremonies."
     },
     {
       id: 3,
       name: "Sogan Classic Sarong",
       price: "$85",
-      image: "/src/assets/images/product-3.png",
+      image: productImg3,
       description: "Rich brown hues from traditional natural dye."
     },
     {
       id: 4,
       name: "Sekar Jagad Shawl",
       price: "$65",
-      image: "/src/assets/images/product-4.png",
+      image: productImg4,
       description: "A beautiful amalgamation of worldly flowers motif."
     }
   ];

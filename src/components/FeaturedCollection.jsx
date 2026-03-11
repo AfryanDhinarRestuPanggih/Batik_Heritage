@@ -1,4 +1,6 @@
 import React from 'react';
+import featuredImg1 from '../assets/images/featured-1.png';
+import featuredImg2 from '../assets/images/featured-2.png';
 
 const FeaturedCollection = () => {
   const featured = [
@@ -6,14 +8,14 @@ const FeaturedCollection = () => {
       id: 1,
       name: "Tulis 'Mega Mendung' Silk",
       price: "$145",
-      image: "/src/assets/images/featured-1.png",
+      image: featuredImg1,
       description: "Premium silk batik featuring the iconic cloud motif from Cirebon."
     },
     {
       id: 2,
       name: "Solo 'Parang' Series",
       price: "$180",
-      image: "/src/assets/images/featured-2.png",
+      image: featuredImg2,
       description: "A symbol of agility and power, historically reserved for Javanese royalty."
     }
   ];

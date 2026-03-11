@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutImg from '../assets/images/about.png';
 
 const AboutBatik = () => {
   return (
@@ -12,7 +13,7 @@ const AboutBatik = () => {
           <div className="relative group">
             <div className="absolute inset-0 bg-batik-gold/20 transform rotate-3 scale-[1.03] transition-transform group-hover:rotate-6 z-0 rounded-sm"></div>
             <img 
-              src="/src/assets/images/about.png" 
+              src={aboutImg} 
               alt="Batik Crafting Process" 
               className="relative z-10 w-full h-auto object-cover rounded-sm border-4 border-white shadow-xl hover-lift"
             />
