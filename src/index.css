@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-batik-brown: #5d4037;
+  --color-batik-dark: #3e2723;
+  --color-batik-gold: #c6a15b;
+  --color-batik-cream: #f5f0e6;
+  --color-batik-beige: #e8dcc4;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-batik-cream);
+  color: var(--color-batik-dark);
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Subtle Batik pattern overlay */
+.bg-batik-pattern {
+  background-image: radial-gradient(rgba(198, 161, 91, 0.15) 1px, transparent 1px),
+  radial-gradient(rgba(198, 161, 91, 0.15) 1px, transparent 1px);
+  background-position: 0 0, 20px 20px;
+  background-size: 40px 40px;
+}
+
+/* Elegant transition for hover effects */
+.hover-lift {
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
